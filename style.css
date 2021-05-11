@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(47, 47, 47);
+}
+
+header{
+    border-radius: 25px;
+    border-width: 2px;
+    border: white;
+    height: 80px;
+    background-color: rgb(92, 147, 241);
+    border: cornflowerblue;
+    align-content: center;
+    margin-top: 2%;
+}
+
+nav {
+    height: 20%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+img.logo {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+img.logo2 {
+    width: 45px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 50px;
+}
+
+nav li button{
+    border-color: rgb(42, 92, 179);
+    background-color: rgb(92, 147, 241);
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 2px;
+    outline: none;
+    margin-top: 8px;
+
+}
+
+.badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    position: relative;
+    top: -1px;
+}
+
+.bg-secondary {
+    background-color: rgb(158, 20, 20)!important;
+}
+
+nav li button.btn {
+    overflow: hidden;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+nav li button:hover {
+    background-color: rgb(42, 92, 179);
+    border-radius: 20px;
+}
+
+nav li button:active {
+    background: rgb(42, 92, 179);
+}
+
+nav li .button__text, .button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 5px;
+  color: black;
+  height: 100%;
+}
+
+.button__text{
+    margin-bottom: 10px;
+}
+
+.button__icon{
+    font-size: 1.5em;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col {
+    height: 100%;
+    width: 20%;
+    margin-left: 200px;
+    background-color: rgb(47, 47, 47);
+}
+.d-flex{
+    background-color: rgb(47, 47, 47);
+}
+
+.col-6 {
+    height: 100%;
+    width: 60%;
+}
+
+.col-6 p {
+    text-align: center;
+}
+
